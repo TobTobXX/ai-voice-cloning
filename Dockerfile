@@ -94,4 +94,7 @@ ADD --chown=user:user . $HOME/ai-voice-cloning
 
 ENV IN_DOCKER=true
 
+ENV HOST="::1"
+ENV PORT="5000"
+
 CMD ["./start.sh"]
